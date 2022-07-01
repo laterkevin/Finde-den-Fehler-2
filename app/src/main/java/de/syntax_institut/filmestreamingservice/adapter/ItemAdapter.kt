@@ -31,7 +31,7 @@ class ItemAdapter(
 
         // das itemLayout wird gebaut.
         val itemLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, true)
+            .inflate(R.layout.list_item, parent, false)
 
         // und in einem ViewHolder zurückgegeben
         return ItemViewHolder(itemLayout)
